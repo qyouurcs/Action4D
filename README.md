@@ -3,7 +3,6 @@
 by [Quanzeng You](http://cs.rochester.edu/u/qyou/), [Hao Jiang](hao-jiang.net)
 
 ### Introduction
-![alt text](http://cs.rochester.edu/u/yfeng23/eccv18/framework.png "Framework")
 
 ### Requirements
 ```
