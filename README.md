@@ -1,6 +1,6 @@
 # Action4D
 
-by [Quanzeng You](http://cs.rochester.edu/u/qyou/), [Hao Jiang](hao-jiang.net)
+by [Quanzeng You](http://cs.rochester.edu/u/qyou/), [Hao Jiang](http://hao-jiang.net)
 
 ### Introduction
 
