@@ -14,13 +14,15 @@ camera view angles, resistant to clutter and able to handle crowd.
 
 ### Methods
 
-#### 1. Multiple people tracking using top-down view
+#### 1. Holistic "scan" of a clustered scene from multiple depth cameras.
+
+#### 2. Multiple people tracking using top-down view
 
 Our tracker works on the top-down view of the scene. The following figure shows some of our tracking results. We show different colors for different tracked person.
 
 ![Tracking results](figures/tracking.png)
 
-#### 2. Overall view of our online action recognition pipeline
+#### 3. Overall view of our online action recognition pipeline
 
 ![Overview of our approach](figures/overview.png)
 
