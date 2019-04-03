@@ -13,7 +13,7 @@ Our method is invariant to
 camera view angles, resistant to clutter and able to handle crowd.
 
 ### Methods
-
+![Overview of our approach](figures/overview.png)
 #### 1. Multiple people tracking using top-down view
 
 ### Experiments
