@@ -33,6 +33,11 @@ Our tracker works on the top-down view of the scene. The following figure shows 
 
 ### Datasets
 
+The cropped volumes of each subject has been shared in **data** folder. 
+
+For test1 and test3, we also shared the training and validating file lists. 
+
+All data files are saved using compressed npz format. The dataloader is going to load directly from the tar file into system memory. Please check the data_loader.py for details.
 
 
 ### Experiments
@@ -48,7 +53,9 @@ Our tracker works on the top-down view of the scene. The following figure shows 
 ```
 PyTorch >= 0.4.1
 ```
-### Action4D Dataset
+
+### Training and Testing
+
 
 ### Citation
 
