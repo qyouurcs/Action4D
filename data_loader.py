@@ -7,7 +7,6 @@ import pdb
 import numpy as np
 from PIL import Image
 
-from transformations import rotation_matrix, translation_matrix
 import scipy
 import scipy.ndimage
 import scipy.sparse
@@ -66,27 +65,7 @@ class SeqVolumeDataset(data.Dataset):
             data *= 20
 	
             if self.rotation:
-                c = np.meshgrid(np.arange(self.w), np.arange(self.h), np.arange(self.d))
-                xyz = np.vstack([c[0].reshape(-1) - float(self.w) / 2,
-                         c[1].reshape(-1) - float(self.h) / 2,
-                         c[2].reshape(-1) - float(self.d) / 2,
-                         np.ones((self.w, self.h, self.d)).reshape(-1) ] )
-
-                mat = rotation_matrix(alpha, (0, 0, 1))
-                t_xyz = np.dot(mat, xyz)
-
-                x = t_xyz[0,:] + float(self.w) /2
-                y = t_xyz[1,:] + float(self.h) /2
-                z = t_xyz[2,:] + float(self.d) /2
-
-                x = x.reshape((self.w, self.h, self.d))
-                y = y.reshape((self.w, self.h, self.d))
-                z = z.reshape((self.w, self.h, self.d))
-
-                #n_xyz = [ x, y, z]
-                # Need to swap the x and y axis.
-                n_xyz = [ y, x, z]
-                data = scipy.ndimage.map_coordinates(data, n_xyz,  order=1, mode='nearest')
+                data = scip0y.ndimage.rotate(data, alpha, (0,1), reshape = False, order = 0, mode = 'nearest')
             
             p = np.random.uniform(0.7,1)
             r_idx = np.random.randint(6)
