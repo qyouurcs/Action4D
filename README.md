@@ -15,6 +15,11 @@ camera view angles, resistant to clutter and able to handle crowd.
 ### Methods
 
 #### 1. Holistic "scan" of a clustered scene from multiple depth cameras.
+We capture the whole scene using multiple depth cameras. Then, we reconstruct a holistic scene by fusing multiple calibrated depth images. The following figure shows an example.
+
+<img src="figures/depth.png" alt="Bending" width="300"/><img src="figures/1435a-crop.png" alt="Scene" width=300 />
+
+
 
 #### 2. Multiple people tracking using top-down view
 
