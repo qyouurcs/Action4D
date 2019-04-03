@@ -13,8 +13,16 @@ Our method is invariant to
 camera view angles, resistant to clutter and able to handle crowd.
 
 ### Methods
-![Overview of our approach](figures/overview.png)
+
 #### 1. Multiple people tracking using top-down view
+
+Our tracker works on the top-down view of the scene. The following figure shows some of our tracking results. We show different colors for different tracked person.
+
+![Tracking results](figures/tracking.png)
+
+#### 2. Overall view of our online action recognition pipeline
+
+![Overview of our approach](figures/overview.png)
 
 ### Experiments
 
