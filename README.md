@@ -2,7 +2,7 @@
 
 by [Quanzeng You](http://cs.rochester.edu/u/qyou/), [Hao Jiang](http://hao-jiang.net)
 
-This is the code and data repository for our work ``Action4D: Online Action REcognition in the Crowd and Clutter'' published in CVPR 2019. 
+This is the code and data repository for our work **Action4D: Online Action Recognition in the Crowd and Clutter** published in **CVPR** 2019. 
 
 ### Introduction
 We propose to tackle action recognition using a holistic 4D “scan” of a cluttered scene to include every detail
