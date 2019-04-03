@@ -55,7 +55,7 @@ PyTorch >= 0.4.1
 ```
 
 ### Training and Testing
-
+1. We use [Horovod] (https://github.com/horovod/horovod) to enable distributed training. However, the code can also be running on a single machine. 
 
 ### Citation
 
