@@ -55,7 +55,17 @@ PyTorch >= 0.4.1
 ```
 
 ### Training and Testing
-1. We use [Horovod] (https://github.com/horovod/horovod) to enable distributed training. However, the code can also be running on a single machine. 
+1. We use [Horovod](https://github.com/horovod/horovod) to enable distributed training. However, the code can also be running on a single machine. 
+
+```
+python train_dist.py \
+    --data_dir_val test3_cross_env/data_shell_f9_val.tar \
+    --data_dir test3_cross_env/train.tar \
+    --list_fn test3_cross_env/train.lst \
+    --list_fn_val test3_cross_env/val.lst \
+    --batch_size 24
+```
+
 
 ### Citation
 
